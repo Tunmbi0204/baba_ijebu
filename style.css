@@ -1,0 +1,29 @@
+.Myinterface{
+    text-align: center;
+      width: auto;
+      /* padding: 12px; */
+      /* border: 2px solid rgb(168, 166, 166); */
+      border-radius: 4px;
+      padding: 15px;
+      background: #f1f1f1;
+      /* margin-top: 8%; */
+      /* margin-top: 80%; */
+      /* background-color: black; */
+      /* background-image:url('images/baba-ijebu.jpg.webp'); */
+      background-color: darkred;
+      background-repeat: no-repeat;
+     background-size: cover;
+      box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+    
+  }
+  .Myinterface .input{
+    text-align: center;
+    width: auto;
+    /* border: 1px solid rgb(168, 166, 166); */
+    border-radius: 4px;
+    padding: 15px;
+    background: #f1f1f1;
+    background-image:url('images/baba-ijebu.jpg.webp');
+    /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+}
