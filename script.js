@@ -4,9 +4,10 @@ function play() {
     const random = [] 
     const predict = newInput;
 
-    for(let i=0; i < 6; i++){
-  random[i] = Math.floor(Math.random() * 10);
-  
+
+ for(let i=0; i < 6; i++){
+  random[i] = Math.floor(Math.random() * 100 + 1 );
+
 }
 
 
@@ -37,22 +38,6 @@ document.getElementById('AvailNumber').innerHTML = "<b> YOUR CORRECT VALUE: " + 
 
 }
 
-
-
-// if( Age >= 18){
-//     valid = Age
-//   }
-// else{
-//    valid = "You must be 18" 
-// }
-//      age.innerHTML = valid;
-
-
-// if(input >= 3){
-//   valid = input}
-//   else{
-//     valid = "invalid"
-//   }
 
 
 
